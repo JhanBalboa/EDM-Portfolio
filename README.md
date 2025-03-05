@@ -9,4 +9,4 @@ I am a first-year Information Systems student at City College of Angeles. I grad
 - Elementary: Angeles Elementary School
 # My Projects
 - Midterm Lab Task 1: [Data Cleaning and Preparation using EXCEL](Midterm%20Lab%20Task%201)
-- Midterm Lab Task 2: Data Cleaning and Preparation using POWER QUERY
+- Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](Midterm%20Lab%20Task%202)
