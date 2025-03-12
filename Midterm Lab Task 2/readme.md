@@ -2,52 +2,54 @@
 
 ## Task Overview
 
+## Part 1
+
 ### 1. Load the Dataset
 - Downloaded the `Uncleaned_DS_jobs.csv` dataset.
 - Loaded the data into Excel using **Data** > **New Query** > **Open File** > **Text/CSV**.
 
 ### 2. Data Cleaning
 
-#### **Salary Estimate Column**
+### 3. **Salary Estimate Column**
 - Removed all characters after the opening parenthesis in the `Salary Estimate` column using the **Transform** menu > **Extract** > **Text Before Delimiter** and specifying `(` as the delimiter.
 
-#### **Create Min and Max Salary Columns**
+#### 4. **Create Min and Max Salary Columns**
 - Created two new columns: `Min Sal` and `Max Sal`.
 - Used the **Column from Examples** feature and manually entered values to separate the minimum and maximum salary.
 
-#### **Add Role Type Column**
+#### 5. **Add Role Type Column**
 - Created a **Custom Column** to categorize job titles into five groups: **Data Scientist**, **Data Analyst**, **Data Engineer**, **Machine Learning Engineer**, and **Other** based on keywords in the `Job Title` column.
 
-#### **Split Location Column**
+#### 6. **Split Location Column**
 - Used a **Custom Column** to correct inconsistencies in the `Location` column, mapping specific locations to their corresponding abbreviations (e.g., “California” to “, CA”).
 - Applied **Split Column by Delimiter** to split the corrected `Location` column.
 
-#### **Handle Negative Values**
+#### 7. **Handle Negative Values**
 - Filtered out negative values from columns such as `Competitors`, `Revenues`, and `Industry` to clean the dataset.
 
-#### **Remove Unnecessary Columns**
+#### 8. **Remove Unnecessary Columns**
 - Removed unnecessary columns, such as `Descriptions`, and cleaned up company names by removing rate-related suffixes.
 
-### 3. Reshaping the Data
+## Part 2
 
-#### **Group Data by Role Type**
+#### 1. **Group Data by Role Type**
 - Created a duplicate of the raw data and focused on grouping salaries by **Role Type**.
 - Selected relevant columns: `Role Type`, `Min Sal`, and `Max Sal`, changed the data type for salary columns to **Currency**, and multiplied the salary columns by 1000.
 - Grouped the data by **Role Type** to calculate average salaries for each role.
 
-#### **Group Data by Company Size**
+#### 2. **Group Data by Company Size**
 - Created a reference to the raw data and selected the columns: `Size`, `Min Sal`, and `Max Sal`.
 - Applied similar transformations (multiplied salary columns by 1000) and grouped the data by **Company Size** to calculate average salaries.
 
-#### **Map State Abbreviations to Full State Names**
+#### 3. **Map State Abbreviations to Full State Names**
 - Merged the raw data with a **State Mapping** file to map state abbreviations to full state names.
 - Filtered out null or blank values in the state abbreviation column.
 
-#### **Group Data by State**
+#### 4. **Group Data by State**
 - Created a reference of the raw data, focusing on grouping by **State Full Name**.
 - Applied similar steps: selected the necessary columns, transformed salary columns, multiplied by 1000, and grouped by **State Full Name** to calculate average salaries for each state.
 
-### 4. Final Queries and Results
+### 5. Final Queries and Results
 - Ensured the final queries included:
   - `Sal By Role Type – dup`
   - `Sal By Size ref`
