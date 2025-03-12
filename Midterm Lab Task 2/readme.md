@@ -2,7 +2,7 @@
 
 ## Task Overview
 
-## Part 1
+## Part 1 Data Cleaning
 
 ### 1. Load the Dataset
 - Downloaded the `Uncleaned_DS_jobs.csv` dataset.
@@ -30,7 +30,7 @@
 #### 8. **Remove Unnecessary Columns**
 - Removed unnecessary columns, such as `Descriptions`, and cleaned up company names by removing rate-related suffixes.
 
-## Part 2
+## Part 2 Transformation 
 
 #### 1. **Group Data by Role Type**
 - Created a duplicate of the raw data and focused on grouping salaries by **Role Type**.
