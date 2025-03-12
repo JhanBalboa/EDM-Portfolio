@@ -1,35 +1,69 @@
-## Midterm Lab Task 2 – Data Cleaning and Transformation
-## Using Power Query Editor
+# Midterm Lab task 2 - Data Cleaning and Transformation using POWER QUERY
 
-Company X would like to extract some useful information from the UnclenedDSJObs csv taken
-from a Job Posting site available in Kaggle.
+## Task Overview
 
-There are a lot of columns available but focus only
-on generating insights that will answer the ff: questions
+### 1. Load the Dataset
+- Downloaded the `Uncleaned_DS_jobs.csv` dataset.
+- Loaded the data into Excel using **Data** > **New Query** > **Open File** > **Text/CSV**.
 
-1. exWhich Job Roles pay the highest and least
-2. What size companies pay the best
-3. Where Job Roles or Job Titles pay the best and least in a specific state
+### 2. Data Cleaning
 
-   ## data-cleaning task
-- Salary Estimate Column – Remove All the characters after the ( open
-parentheses)
- - Create 2 New Columns (From the Salary Estimate) Min Sal and Max Sal
- - ADD COLUMN – Role Type
- - SPLIT COLUMNS by Delimeter
- - Select Location column (SPLIT columns by , Delimeter)
-## Reshape and Group the tables:
-- Create a duplicate of the raw data Right Click Unclean DS Jobs select
-duplicate (Queries pane)
-- Rename the duplicate with “Sal By Role Type dup”
-- Create a reference of the raw data Right Click Unclean DS Jobs
-choose reference (Queries pane)
-- Rename the reference with “Sal By Role Size ref
-- Mapping Other Files and include in the current queries
-- Create a reference of the raw data Right Click Unclean DS Jobs
-- choose reference (Queries pane)
-- Rename the reference with “Sal By State ref
-- To view dependencies and References of the QUERIES
+#### **Salary Estimate Column**
+- Removed all characters after the opening parenthesis in the `Salary Estimate` column using the **Transform** menu > **Extract** > **Text Before Delimiter** and specifying `(` as the delimiter.
+
+#### **Create Min and Max Salary Columns**
+- Created two new columns: `Min Sal` and `Max Sal`.
+- Used the **Column from Examples** feature and manually entered values to separate the minimum and maximum salary.
+
+#### **Add Role Type Column**
+- Created a **Custom Column** to categorize job titles into five groups: **Data Scientist**, **Data Analyst**, **Data Engineer**, **Machine Learning Engineer**, and **Other** based on keywords in the `Job Title` column.
+
+#### **Split Location Column**
+- Used a **Custom Column** to correct inconsistencies in the `Location` column, mapping specific locations to their corresponding abbreviations (e.g., “California” to “, CA”).
+- Applied **Split Column by Delimiter** to split the corrected `Location` column.
+
+#### **Handle Negative Values**
+- Filtered out negative values from columns such as `Competitors`, `Revenues`, and `Industry` to clean the dataset.
+
+#### **Remove Unnecessary Columns**
+- Removed unnecessary columns, such as `Descriptions`, and cleaned up company names by removing rate-related suffixes.
+
+### 3. Reshaping the Data
+
+#### **Group Data by Role Type**
+- Created a duplicate of the raw data and focused on grouping salaries by **Role Type**.
+- Selected relevant columns: `Role Type`, `Min Sal`, and `Max Sal`, changed the data type for salary columns to **Currency**, and multiplied the salary columns by 1000.
+- Grouped the data by **Role Type** to calculate average salaries for each role.
+
+#### **Group Data by Company Size**
+- Created a reference to the raw data and selected the columns: `Size`, `Min Sal`, and `Max Sal`.
+- Applied similar transformations (multiplied salary columns by 1000) and grouped the data by **Company Size** to calculate average salaries.
+
+#### **Map State Abbreviations to Full State Names**
+- Merged the raw data with a **State Mapping** file to map state abbreviations to full state names.
+- Filtered out null or blank values in the state abbreviation column.
+
+#### **Group Data by State**
+- Created a reference of the raw data, focusing on grouping by **State Full Name**.
+- Applied similar steps: selected the necessary columns, transformed salary columns, multiplied by 1000, and grouped by **State Full Name** to calculate average salaries for each state.
+
+### 4. Final Queries and Results
+- Ensured the final queries included:
+  - `Sal By Role Type – dup`
+  - `Sal By Size ref`
+  - `State`
+  - `Sal By State ref`
+  - `Uncleaned DS Jobs`
+- These queries provided insights into salaries by job role, company size, and state.
+
+###Conclusion
+- The project demonstrates the application of data cleaning and transformation techniques in Power Query Editor to extract insights from a raw dataset. The final queries addressed key business questions related to job roles, company sizes, and salary distribution by state.
+
+# Output Overview:
+
+## Uncleaned Data
+![Uncleaned Data](IMAGE/Uncleaned%20Data.PNG)
+
 ## Cleaned data
 ![Cleaned Data](IMAGE/Cleaned%20Data.PNG)
 
@@ -41,9 +75,6 @@ choose reference (Queries pane)
 
 ## Sal by size
 ![Sal By State Ref](IMAGE/Sal%20By%20State%20ref.PNG)
-
-## Uncleaned
-![Uncleaned Data](IMAGE/Uncleaned%20Data.PNG)
 
 ## Query Dependencies
 ![Query Dependencies](IMAGE/Query%20Dependencies.PNG)
