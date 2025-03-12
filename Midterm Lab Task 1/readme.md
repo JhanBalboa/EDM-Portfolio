@@ -1,6 +1,6 @@
 # Midterm Lab Task 1 - Data Cleaning and Preparation using Excel
 
-## Steps for Data Cleaning
+## Task Overview
 
 ### 1. Autofit Columns and Rows
 Ensure all data is visible:
