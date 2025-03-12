@@ -52,4 +52,4 @@ Quickly replace values:
 ## Here's the Physical Data Model
 ![Sample Output ](IMAGE/dataModel.PNG).
 
-## Here's the final output [Midterm Lab Task 1](Midterm%20Task%201.xlsx)
+## Here's the final output [Midterm Lab Task 1](IMAGE/Midterm%20Task%201.xlsx)
