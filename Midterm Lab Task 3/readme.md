@@ -1,3 +1,7 @@
+# Midterm Lab task 3 -  Creating Pivot Tables and Charts
+
+## Task Overview
+
 #### 1. **Data Cleaning**
    - Open the "Uncleaned DS Jobs" dataset in Excel.
    - Remove any rows with missing salary data.
@@ -37,3 +41,7 @@
 #### 6. **Custom Design:**
    - Apply a color scheme that makes the dashboard visually appealing.
    - Customize fonts, background colors, and borders to create a polished look.
+
+## Output Overview
+
+
