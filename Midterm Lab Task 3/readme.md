@@ -44,4 +44,8 @@
 
 ## Output Overview
 
+### Dashboard
+![Dashboard](IMAGE/USDataScienceRelatedJobsDashboard.PNG)
 
+### File Overview
+[Dashboard](IMAGE/Midterm%20Lab%20Task%203.xlsx)
