@@ -47,5 +47,4 @@
 ### Dashboard
 ![Dashboard](IMAGE/USDataScienceRelatedJobsDashboard.PNG)
 
-### File Overview
-[Dashboard](IMAGE/Midterm%20Lab%20Task%203.xlsx)
+### Here's the final output [Midterm Lab Task 3](IMAGE/Midterm%20Lab%20Task%203.xlsx)
