@@ -58,7 +58,7 @@
   - `Uncleaned DS Jobs`
 - These queries provided insights into salaries by job role, company size, and state.
 
-###Conclusion
+### Conclusion
 - The project demonstrates the application of data cleaning and transformation techniques in Power Query Editor to extract insights from a raw dataset. The final queries addressed key business questions related to job roles, company sizes, and salary distribution by state.
 
 # Output Overview:
