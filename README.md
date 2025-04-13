@@ -7,11 +7,14 @@ I am a first-year Information Systems student at City College of Angeles. I grad
 - Senior High School: Angeles City Science High School
 - High School: Holy Angel University
 - Elementary: Angeles Elementary School
+
 # My Projects
+
 ## Midterms
 - Midterm Lab Task 1: [Data Cleaning and Preparation using EXCEL](Midterm%20Lab%20Task%201)
 - Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](Midterm%20Lab%20Task%202)
 - Midterm Lab Task 3: [Creating Pivot Tables and Charts](Midterm%20Lab%20Task%203)
+
 ## Finals 
 - Finals Lab Task 1: Multi Level Company Database
 - Finals Lab Task 2:
