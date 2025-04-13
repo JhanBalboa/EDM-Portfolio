@@ -1,6 +1,6 @@
 title: "Jhan Miko Balboa"
 description: "EDM Portfolio | Information Systems Student"
-logo: "IMAGE/Me.jpg"
+logo: /Me.jpg
 theme: jekyll-theme-cayman
 show_downloads: true
 github:
