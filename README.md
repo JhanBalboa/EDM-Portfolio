@@ -16,6 +16,7 @@ I am a first-year Information Systems student at City College of Angeles. I grad
 - Midterm Lab Task 3: [Creating Pivot Tables and Charts](Midterm%20Lab%20Task%203)
 
 ## Finals 
-- Finals Lab Task 1: Multi Level Company Database
-- Finals Lab Task 2:
-- Finals Lab Task 3:
+- Finals Lab Task 1: [Multi Level Company Database](Finals%20Lab%20Task%201)
+- Finals Lab Task 2: [Transform ER into Relational tables](Finals%20Lab%20Task%202)
+- Finals Lab Task 3: [Table Manipulation](Finals%20Lab%20Task%203)
+- Finals Lab Task 3-1: [Using SELECT CLAUSE](Finals%20Lab%20Task%203-1)
