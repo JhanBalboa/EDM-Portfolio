@@ -1,5 +1,5 @@
 # EDM-Portfolio
-This portfolio will contain copies of my Enterprise Data Management Lab Exercises
+A portfolio that will contain lab works of my Enterprise Data Management lab tasks and exercises in my 1st year 2nd semester.
 # About Me
 I am a first-year Information Systems student at City College of Angeles. I graduated with highest honors in the STEM strand and have foundational knowledge in C, Python, and MySQL. As a beginner in the field, I am eager to learn and develop my skills to apply technology in solving real-world problems.
 # Education
