@@ -1,9 +1,5 @@
 # Finals Lab Task 1 - Multi Level Company Database
 
-# 📘 Task Overview: Employee Database Project
-
-This project involves creating a set of database tables that are related to managing employees, departments, projects, and managers. Below is a breakdown of each task written in a simple, easy-to-understand format — like how you'd explain it to a classmate.
-
 ---
 
 ## ✅ Task 1: Create the `employees` Table
