@@ -57,7 +57,7 @@
 
 ---
 ## Here's the ER Diagram (See screenshot)
-![Sample Output](ER%20Diagram.PNG)
+![Sample Output](FT2ERDiagram.PNG)
 
 ---
 ## Here's the Final file output [Finals Lab Task 1](Finals%20Lab%20Task%202.sql)
