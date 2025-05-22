@@ -12,8 +12,6 @@
   - `product_description`
   - `p_indate`
 
-👉 This helps us filter and monitor more recent product entries.
-
 ---
 
 ## ✅ Task 2: View – Products in Price Range 100–150
