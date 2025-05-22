@@ -44,3 +44,20 @@
   - You can't submit work for an assignment that hasn’t been created.
 - This structure keeps the data accurate and prevents orphaned records.
 
+---
+
+## Task Outputs
+
+---
+## Here's the Query Statements [Finals Lab Task 1](Query%20Statements)
+
+---
+## Here's the Table Structure (See screenshot)
+![Sample Output](FT2TableStructure.PNG)
+
+---
+## Here's the ER Diagram (See screenshot)
+![Sample Output](ER%20Diagram.PNG)
+
+---
+## Here's the Final file output [Finals Lab Task 1](Finals%20Lab%20Task%202.sql)
