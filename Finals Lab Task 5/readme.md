@@ -46,4 +46,17 @@
   - `v_state` (Vendor State)
 - The function will return the `product_description` and `price` for all products that match **both** of those inputs.
 
+## 🔗 Task Outputs
 
+---
+
+### 📄 Here's the Query Statements [Finals Lab Task 5](QS5)
+
+---
+
+### 🗂️ Here's the Table Structure (See screenshot)
+![Table Structure](TableStructure5.PNG)
+
+---
+
+### 💾 Here's the Final SQL File [Finals Lab Task 5](Finals%20Lab%20Task%205.sql)
