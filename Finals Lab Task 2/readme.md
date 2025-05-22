@@ -49,7 +49,7 @@
 ## Task Outputs
 
 ---
-## Here's the Query Statements [Finals Lab Task 1](Query%20Statements)
+## Here's the Query Statements [Finals Lab Task 2](Query%20Statements)
 
 ---
 ## Here's the Table Structure (See screenshot)
@@ -60,4 +60,4 @@
 ![Sample Output](FT2ERDiagram.PNG)
 
 ---
-## Here's the Final file output [Finals Lab Task 1](Finals%20Lab%20Task%202.sql)
+## Here's the Final file output [Finals Lab Task 2](Finals%20Lab%20Task%202.sql)
