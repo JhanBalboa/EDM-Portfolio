@@ -62,15 +62,20 @@
   - What projects is someone working on?
   - Who are the company’s managers?
 
+---
 
 ## Task Outputs
 
+---
 ## Here's the Query Statements [Finals Lab Task 1](Query%20Statements)
 
+---
 ## Here's the Table Structure (See screenshot)
 ![Sample Output](Table%20Structure%20(Task%201-5).PNG)
 
+---
 ## Here's the ER Diagram (See screenshot)
 ![Sample Output](ER%20Diagram.PNG)
 
+---
 ## Here's the Final file output [Finals Lab Task 1](Finals%20Lab%20Task%201.sql)
