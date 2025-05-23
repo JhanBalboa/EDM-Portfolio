@@ -12,7 +12,7 @@
 
 - Insert multiple movie documents into a `movies` collection
 
-![Insert Documents](TableStructure5.PNG)
+![Create Database](Create%20Database.PNG)
 ---
 
 ### 🔎 Query / Find Documents
@@ -24,7 +24,7 @@
 - Get all movies released in the 90s  
 - Get all movies released before the year 2000 or after 2010  
 
-![Query / Find Documents](TableStructure5.PNG)
+![Query / Find Documents](Query%20%26%20Find%20Documents.PNG)
 ---
 
 ### ✏️ Update Documents
@@ -33,7 +33,7 @@
 - Add synopsis to *The Hobbit: The Desolation of Smaug*  
 - Add actor "Samuel L. Jackson" to *Pulp Fiction*  
 
-![Update Documents](TableStructure5.PNG)
+![Update Documents](Update%20Documents.PNG)
 ---
 
 ### 🧠 Text Search
@@ -44,7 +44,7 @@
 - Find movies with "dwarves" or "hobbit" in synopsis  
 - Find movies with both "gold" and "dragon" in synopsis  
 
-![Text Search](TableStructure5.PNG)
+![Text Search](Text%20Search.PNG)
 ---
 
 ### 🗑️ Delete Documents
@@ -52,7 +52,7 @@
 - Delete the movie *Pee Wee Herman’s Big Adventure*  
 - Delete the movie *Avatar*  
 
-![Delete Documents](TableStructure5.PNG)
+![Delete Documents](Delete%20Documents.PNG)
 ---
 
 ### 👥 Relationships
@@ -66,7 +66,7 @@
 #### Comments  
 - Insert comments with references to users and posts
 
-![Relationships](TableStructure5.PNG)
+![Relationships](Relationships.PNG)
 ---
 
 ### 🔍 Querying Related Collections
@@ -80,5 +80,5 @@
 - Find all comments authored by “ScumbagSteve”  
 - Find all comments belonging to the post *“Reports a bug in your code”*
 
-![Querying Related Collections](TableStructure5.PNG)
+![Querying Related Collections](Querying.PNG)
 ---
